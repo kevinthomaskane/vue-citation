@@ -1,22 +1,16 @@
 {
-  "name": "Citation Plus",
-  "version": "1.5",
+  "name": "Vue Citation",
+  "version": "1.0",
   "description": "Get accurate citations for a webpage in APA, MLA, and Chicago format.",
-  "permissions": ["activeTab"],
+  "permissions": ["activeTab", "management"],
   "browser_action": {
-    "default_popup": "popup.html",
+    "default_popup": "public/index.html",
     "default_icon": {
-      "16": "images/citation16.png",
-      "32": "images/citation32.png",
-      "48": "images/citation48.png",
-      "128": "images/citation128.png"
+     
     }
   },
   "icons": {
-    "16": "images/citation16.png",
-    "32": "images/citation32.png",
-    "48": "images/citation48.png",
-    "128": "images/citation128.png"
+    
   },
   "manifest_version": 2
 }
